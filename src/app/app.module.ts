@@ -8,6 +8,8 @@ import { UserAppNavbarComponent } from './layouts/coustomer-layouts/user-app-nav
 import { UserAppFooterComponent } from './layouts/coustomer-layouts/user-app-footer/user-app-footer.component';
 import { UserHomeComponent } from './user-folder/user-home/user-home.component';
 import { UserMobileNavComponent } from './layouts/coustomer-layouts/user-mobile-nav/user-mobile-nav.component';
+import { UserAboutComponent } from './user-folder/user-about/user-about.component';
+import { UserContactComponent } from './user-folder/user-contact/user-contact.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +18,9 @@ import { UserMobileNavComponent } from './layouts/coustomer-layouts/user-mobile-
     UserAppNavbarComponent,
     UserAppFooterComponent,
     UserHomeComponent,
-    UserMobileNavComponent
+    UserMobileNavComponent,
+    UserAboutComponent,
+    UserContactComponent
   ],
   imports: [
     BrowserModule,
