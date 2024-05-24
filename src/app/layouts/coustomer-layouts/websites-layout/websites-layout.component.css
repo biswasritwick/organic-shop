@@ -1,0 +1,40 @@
+
+
+main{
+    width: 100%;
+    height: auto;
+    position: relative;
+}
+app-user-app-navbar{
+    width: 100%;
+    height: 105px;
+    display: block;
+    margin-top: 0;
+    border: 1px solid black;
+    background-color: #f8f6f3;
+
+}
+app-user-mobile-nav {
+    width: 0%;
+    height: calc(100vh - 90px);
+    /* border: 1px solid black; */
+    right: 0;
+    position: fixed;
+    top: 90px;
+ 
+}
+.website-layout-content{
+    width: 100%;
+    height:auto;
+    /* background-color: aquamarine; */
+    display: inline-block;
+    /* margin-top: auto; */
+
+}
+app-user-app-footer{
+    width: 100%;
+    height: auto;
+    display: inline-block;
+    margin-top: auto;
+    border: 1px solid black;
+}
