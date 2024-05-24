@@ -2,7 +2,7 @@ main {
 
     width: 100%;
     height: auto;
-    border: 1px solid black;
+    /* border: 1px solid black; */
 }
 
 /* ------------------------home-display------------------------ */
@@ -13,6 +13,7 @@ main {
     width: 100%;
     height: calc(50rem - 90px);
 }
+
 #font {
     width: 100%;
     height: 100%;
@@ -683,9 +684,14 @@ main {
 
 /* ------------------max-width 426------------------------ */
 @media (max-width:426px) {
-main{
-    height: 5238px;
-}
+    main {
+        height: 5238px;
+    }
+
+    #font {
+        flex-direction: column;
+    }
+
     .details>img {
         width: 67px;
         height: 36px;
@@ -845,7 +851,7 @@ main{
 
     .coustomer-review {
         width: 100%;
-    height: 66rem;
+        height: 66rem;
 
         display: inline-block;
 
@@ -861,12 +867,14 @@ main{
         width: 27%;
         height: 3rem;
     }
+
     .sponcer {
-    top: 72.2rem;
-    height: 7rem;
+        top: 72.2rem;
+        height: 7rem;
 
     }
-    app-footer{
+
+    app-footer {
         top: 5238px;
     }
 }

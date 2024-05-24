@@ -1,16 +1,13 @@
-
 <div id="main" [class.header_change]="heder_variable">
-    
-    <button class="logo" routerLink="/home"></button>
+
+    <button class="logo" [routerLink]="['/user-home']"></button>
     <div class="navoption">
         <div class="option">
             <ul class="capital">
-                <li>
-                    <a href="" class="fornt" routerLink="/everything">everything</a>
-                </li>
-               <li> <a href="" class="fornt" routerLink="/grossery">groceries</a></li>
-         
-               <li> <a href="" class="fornt" routerLink="/juice">juice</a></li>
+
+                <li> <a class="fornt">groceries</a></li>
+
+                <li> <a class="fornt">juice</a></li>
             </ul>
         </div>
         <div class="option">
@@ -18,14 +15,14 @@
                 <li>
                     <a href="" class="fornt" [routerLink]="['/user-about']">about</a>
                 </li>
-               <li> <a href="" class="fornt" [routerLink]="['/user-contact']">contact</a></li>
-               <li> <a href="" class="fornt">buskect</a>
-               <li> <a href="" class="fornt"><i class="fa-solid fa-user"></i></a></li>
+                <li> <a href="" class="fornt" [routerLink]="['/user-contact']">contact</a></li>
+                <li> <a href="" class="fornt">buskect</a>
+                <li> <a href="" class="fornt"><i class="fa-solid fa-user"></i></a></li>
             </ul>
         </div>
-        <button  type="button"  (click)="sidenav()" class="nav-btn">
+        <button type="button" (click)="sidenav()" class="nav-btn">
             <i class="fa-solid fa-bars"></i>
-          </button>
+        </button>
     </div>
 
 </div>

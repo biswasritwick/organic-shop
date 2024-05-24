@@ -36,5 +36,5 @@ app-user-app-footer{
     height: auto;
     display: inline-block;
     margin-top: auto;
-    border: 1px solid black;
+    /* border: 1px solid black; */
 }
