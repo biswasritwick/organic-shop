@@ -14,32 +14,32 @@ export class UserMobileNavComponent {
       number: 1,
       name: 'home',
       icone: 'fa-solid fa-house',
-      routerlink: '/home'
+      routerlink: '/user-home'
     },
     {
       number: 2,
       name: 'grossery',
       icone: 'fa-solid fa-house',
-      routerlink: '/grossery'
+      routerlink: ''
     },
 
     {
       number: 3,
       name: 'juice',
       icone: 'fa-solid fa-house',
-      routerlink: '/juice'
+      routerlink: ''
     },
     {
       number: 4,
       name: 'about',
       icone: 'fa-solid fa-house',
-      routerlink: '/about'
+      routerlink: '/user-about'
     },
     {
       number: 5,
       name: 'contact',
       icone: 'fa-solid fa-house',
-      routerlink: '/contact'
+      routerlink: '/user-contact'
     },
     {
       number: 6,
