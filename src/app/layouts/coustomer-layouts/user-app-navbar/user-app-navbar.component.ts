@@ -7,9 +7,12 @@ import { Component, EventEmitter, HostListener, Output } from '@angular/core';
 })
 export class UserAppNavbarComponent {
   @Output() sidenavbar = new EventEmitter<boolean>()     
+  @HostListener("document:scroll")
+
   menustatus: boolean = false;    // menustatus for side nav
   heder_variable = false     //when display scroll then sidenav apply CSS
-  @HostListener("document:scroll")
+
+  
   scroll() {
     if (document.body.scrollTop > 0 || document.documentElement.scrollTop > 0) {
       this.heder_variable = true

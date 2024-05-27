@@ -1,6 +1,6 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
-import { WebsitesLayoutComponent } from './layouts/coustomer-layouts/websites-layout/websites-layout.component';
+import { WebsitesLayoutComponent } from './layouts/coustomer-layouts';
 import { UserHomeComponent } from './user-folder/user-home/user-home.component';
 import { UserAboutComponent } from './user-folder/user-about/user-about.component';
 import { UserContactComponent } from './user-folder/user-contact/user-contact.component';
