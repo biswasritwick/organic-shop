@@ -1,0 +1,64 @@
+:host {
+    top: 4vw;
+    position: relative;
+    background-color: #6a9739;
+    width: auto;
+    height: auto;
+    color: #fff;
+    transition: all 200ms ease-in;
+    border: none;
+    font-size: 1.1vw;
+    padding: 10px;
+}
+
+:host:active {
+    scale: 0.9;
+}
+
+.icon {
+    text-align: center;
+}
+
+.icon i {
+    padding: 0px 8px 0px 0px;
+    font-size: 1vw;
+
+}
+
+:host:hover {
+    transition: all 200ms ease-in;
+
+    background-color: #8bc34a;
+}
+
+@media (max-width:10244px) {
+    :host {
+       
+        width: auto;
+        height: auto;
+        font-size: 1.1vw;
+    }
+}
+
+@media (max-width:768px) {
+    :host {
+    padding: 8px;
+        
+        font-size: 1.7vw;
+    }
+}
+
+@media (max-width:426px) {
+
+    :host {
+        top: 8vw;
+        width: auto;
+        height: auto;
+        font-size: 3vw;
+    }
+
+    .icon i {
+        font-size: 2.3vw;
+
+    }
+}

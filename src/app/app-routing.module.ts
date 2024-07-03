@@ -1,9 +1,9 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 import { WebsitesLayoutComponent } from './layouts/coustomer-layouts';
-import { UserHomeComponent } from './user-folder/user-home/user-home.component';
+import { UserHomeComponent } from './user-folder/user-main-home/user-home/user-home.component';
 import { UserAboutComponent } from './user-folder/user-about/user-about.component';
-import { UserContactComponent } from './user-folder/user-contact/user-contact.component';
+import { UserContactComponent } from './user-folder/user-contact-section/user-contact/user-contact.component';
 
 const routes: Routes = [
   {    //main layouts-----------------------------------
