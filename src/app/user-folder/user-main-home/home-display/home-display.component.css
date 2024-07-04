@@ -29,7 +29,10 @@
     opacity: 2;
     overflow: hidden;
     top: 8rem;
-
+    background-image: url(/assets/images/organic-products-hero.png);
+    background-position: right bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .image>img {
